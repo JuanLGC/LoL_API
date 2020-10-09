@@ -1,0 +1,13 @@
+.container-fluid {
+    background-image: url("./img/homeScreen.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+}
+
+.foreground {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.61);
+}

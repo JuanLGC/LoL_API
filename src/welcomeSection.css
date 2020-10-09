@@ -1,0 +1,83 @@
+.welcome-section {
+    margin: auto;
+    margin-top: 4rem;
+    width: 50%;
+    background-color: rgba(26, 25, 25, 0.699);
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.title-welcome-section {
+    text-align: center;
+    color: rgb(218, 185, 0);
+    margin-bottom: 2rem;
+
+}
+
+.welcome-text {
+    font-size: 1.3rem;
+    color: rgb(236, 236, 236);
+}
+
+.league {
+    color: rgb(218, 185, 0);
+    font-weight: bolder;
+}
+
+.overlay{
+    display: flex;
+    border: white solid 1px;
+    justify-content: space-between;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+}
+
+.welcome-section-footer {
+    margin: 5rem 0 0 0;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.button-footer {
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+    background-color: #d0a85c;
+    border: none;
+    height: 3rem;
+    padding: .7rem;
+    border-radius: 2px;
+}
+
+.button-footer:hover, .overlay:hover {
+    animation: button-expand 1s ease forwards;
+}
+
+.join-us{
+    margin: 0.1rem 0.5rem 0 0.5rem;
+
+}
+
+.rito {
+    width: 3rem;
+}
+
+.welcome-section, .title-welcome-section, .welcome-text, .welcome-section-footer, .join-us-link, .rito {
+    animation: fade 2s ease forwards;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes button-expand {
+    from {
+        clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+    }
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    }
+}
