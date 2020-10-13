@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap');
+
+.first-section{
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+.cards-frame {
+    width: 95%;
+    height: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    /* border: solid 1px rgb(195, 144, 49); */
+
+}
+.first-section-card {
+    width: 20vw;
+    height: 40vh;
+    background-color: violet;
+    margin: auto;
+    border-radius: 3px;
+    /* border: solid 1px rgb(195, 144, 49); */
+    padding: 0;
+    
+}
+
+.first-section-card h2{
+    overflow: hidden;
+    color: white;   
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
+
+.champions-card {
+    background-image: url("./img/champions.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+.modes-card {
+    background-image: url("./img/modes.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+.stats-card {
+    background-image: url("./img/Stats.png");
+    background-size: cover;
+    background-position-x: center;
+}
+
+.esports-card {
+    background-image: url("./img/esports.jpg");
+    background-size: cover;
+    background-position-x: center;
+    
+}
+
+.card-overlay {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-overlay:hover {
+    opacity: 0.25;
+    
+}
+
+
+@keyframes glow1 {
+    from {
+      box-shadow: 0 0 40px -15px white;;
+    }
+    to {
+      box-shadow: 0 0 30px 0px white;;
+    }
+  }
